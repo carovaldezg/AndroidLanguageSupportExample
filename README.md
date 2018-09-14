@@ -5,10 +5,10 @@ This is a short example of how to add language support to Android apps. This exa
 You can have all the languages you want to in the same app without much effort. 
 
 
-![alt text](https://github.com/carovaldezg/LanguageSupportExample/blob/master/Screenshot_1536962926.png)
+![alt text](https://github.com/carovaldezg/LanguageSupportExample/blob/master/Captura%20de%20pantalla%202018-09-15%20a%20la(s)%2001.53.19.png)
 
 
-![alt text](https://github.com/carovaldezg/LanguageSupportExample/blob/master/Screenshot_1536962972.png)
+![alt text](https://github.com/carovaldezg/LanguageSupportExample/blob/master/Captura%20de%20pantalla%202018-09-15%20a%20la(s)%2001.53.19.png)
 
 
 
