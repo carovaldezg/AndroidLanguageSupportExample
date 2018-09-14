@@ -6,12 +6,15 @@ This is a short example of how to add language support to your Android apps. In 
 
 You can have all the languages you want to in the same app without much effort but there are specific steps for right to left languages (like arabic). For the purposes of this example, I used only left to right languages. The reason is simple: right to left need a new layout. 
 
-Step number 1: define your strings as you do usually (or must do!).
+# Step number 1: define your strings as you do usually (or must do!).
 
-Step number 2: for every language you must create new folders inside the values folder, one per every language you want to support.
+# Step number 2: for every language you must create new folders inside the values folder, one per every language you want to support.
+
 Every folder name should be: values-b+language code
 
 For spanish the folder name is: values-b+es
+
+# Step number 3: create a file string.xml inside the folders you created.
 
 Keep in mind that the string variables must have the same name in every file ;)
 
