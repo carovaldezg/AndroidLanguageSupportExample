@@ -1,15 +1,10 @@
 # LanguageSupportExample
-This is a short example of how to add language support to Android apps. This example has support for English and Spanish.
-
-
-You can have all the languages you want to in the same app without much effort. 
+This is a short example of how to add language support to your Android apps. In this example, you can see the code to support  English and Spanish in a small Nightwish content app.
 
 
 ![alt text](https://github.com/carovaldezg/LanguageSupportExample/blob/master/Captura%20de%20pantalla%202018-09-15%20a%20la(s)%2001.53.19.png)   ![alt text](https://github.com/carovaldezg/LanguageSupportExample/blob/master/Captura%20de%20pantalla%202018-09-15%20a%20la(s)%2001.53.59.png)
 
-
-
-In this example I cover only left to right languages.
+You can have all the languages you want to in the same app without much effort but there are specific steps for right to left languages (like arabic). For the purposes of this example, I used only left to right languages. The reason is simple: right to left need a new layout. 
 
 Step number 1: define your strings as you do usually (or must do!).
 
