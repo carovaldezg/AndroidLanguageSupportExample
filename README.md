@@ -22,7 +22,7 @@ Android OS provides the mechanism to match the selected language with the create
 string that will be repeated, you define strings in the main string.xml file. As it is shown in the example. 
 
 If the language selected in your device does not match any of the languages of your app, the values recognized by default are
-the ones in the default strings.xml file.
+the ones in the default strings.xml file. Keep always that file!
 
 For more information, you can visit the android developer website https://developer.android.com/training/basics/supporting-devices/languages
 
