@@ -4,6 +4,14 @@ This is a short example of how to add language support to Android apps. This exa
 
 You can have all the languages you want to in the same app without much effort. 
 
+
+![alt text](https://github.com/carovaldezg/LanguageSupportExample/blob/master/Screenshot_1536962926.png)
+
+
+![alt text](https://github.com/carovaldezg/LanguageSupportExample/blob/master/Screenshot_1536962972.png)
+
+
+
 In this example I cover only left to right languages.
 
 Step number 1: define your strings as you do usually (or must do!).
