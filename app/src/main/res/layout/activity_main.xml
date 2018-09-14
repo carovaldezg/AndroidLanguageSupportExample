@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="0.4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/nightwishimage" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.58"
+        android:background="@color/grey">
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/shadow_top_to_bottom" />
+
+        <TextView
+            android:id="@+id/activity_main_welcome_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/spacing_medium_extra"
+            android:layout_marginEnd="@dimen/spacing_medium_extra"
+            android:layout_marginTop="@dimen/spacing_large_extra"
+            android:layout_marginBottom="@dimen/spacing_medium_extra"
+            android:text="@string/welcome_message"
+            android:textSize="@dimen/font_medium_extra"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/activity_main_intro_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/spacing_medium_extra"
+            android:layout_marginEnd="@dimen/spacing_medium_extra"
+            android:layout_marginBottom="@dimen/spacing_large_extra"
+            android:text="@string/intro"
+            android:textSize="@dimen/font_medium_extra"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/spacing_medium_extra"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/activity_main_website_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:paddingEnd="@dimen/spacing_large"
+                android:paddingStart="@dimen/spacing_large"
+                android:text="@string/website"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_medium_extra"
+                android:background="@drawable/blue_rounded_button" />
+
+            <Button
+                android:id="@+id/activity_main_youtube_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/spacing_medium"
+                android:paddingEnd="@dimen/spacing_large"
+                android:paddingStart="@dimen/spacing_large"
+                android:text="@string/youtube"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_medium_extra"
+                android:background="@drawable/blue_rounded_button" />
+
+            <Button
+                android:id="@+id/activity_main_facebook_page_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingEnd="@dimen/spacing_large"
+                android:paddingStart="@dimen/spacing_large"
+                android:text="@string/facebook"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_medium_extra"
+                android:background="@drawable/blue_rounded_button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_main_github_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/spacing_medium_extra"
+        android:layout_marginBottom="@dimen/spacing_medium_extra"
+        android:layout_weight="0.02"
+        android:gravity="bottom"
+        android:text="@string/visit_github_example"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

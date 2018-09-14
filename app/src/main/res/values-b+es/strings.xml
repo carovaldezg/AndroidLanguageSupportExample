@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="welcome_message">Bienvenidos al ejemplo de soporte de múltiples idiomas para Android!</string>
+    <string name="website">Sitio oficial</string>
+    <string name="visit_github_example">Visita el github de este ejemplo</string>
+    <string name="youtube">Canal de Youtube</string>
+    <string name="facebook">Pagina de FB</string>
+    <string name="intro">Visita los links de Nightwish: </string>
+    <string name="error_no_browser_found">No hay un navegador o aplicación instalados para abrir este link.</string>
+
+</resources>

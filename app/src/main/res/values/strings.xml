@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">LanguageSupportExample</string>
+    <string name="welcome_message">Welcome to multiple laguages support for Android example!</string>
+    <string name="website">Official website</string>
+    <string name="visit_github_example">Visit the example in github</string>
+    <string name="youtube">Youtube channel</string>
+    <string name="facebook">FB Page</string>
+    <string name="intro">Visit the Nightwish links: </string>
+    <string name="error_no_browser_found">There is no browser or app installed to open this link.</string>
+
+    <!-- Links -->
+    <string name="web_link">http://nightwish.com/en</string>
+    <string name="youtube_link">https://www.youtube.com/channel/UCQplaZZ2mv8fo8Zd-1hQPzg</string>
+    <string name="fb_link">https://www.facebook.com/nightwish/</string>
+    <string name="github_link">https://github.com/carovaldezg</string>
+
+</resources>
