@@ -14,7 +14,7 @@ In this example I cover only left to right languages.
 Step number 1: define your strings as you do usually (or must do!).
 
 Step number 2: for every language you must create new folders inside the values folder, one per every language you want to support.
-Every folder name should be: values-b+<language>
+Every folder name should be: values-b+language code
 
 For spanish the folder name is: values-b+es
 
@@ -26,4 +26,5 @@ string that will be repeated, you define strings in the main string.xml file. As
 If the language selected in your device does not match any of the languages of your app, the values recognized by default are
 the ones in the default strings.xml file.
 
+For more information, you can visit the android developer website https://developer.android.com/training/basics/supporting-devices/languages
 
