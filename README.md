@@ -1,4 +1,4 @@
-# LanguageSupportExample
+# Language Support Example for Android apps!
 This is a short example of how to add language support to your Android apps. In this example, you can see the code to support  English and Spanish in a small Nightwish content app.
 
 
